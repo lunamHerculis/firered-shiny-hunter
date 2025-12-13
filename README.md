@@ -2,7 +2,7 @@
 
 A cli tool for automatically grinding shiny pokemon in Pokémon FireRed and LeafGreen.
 
-Watch this tutorial video to see how it works: TODO
+Watch this tutorial video to see how it works: https://youtu.be/H78yygHTKkM
 
 # Running the tool
 
@@ -44,18 +44,22 @@ The tool works by soft-resetting the game repeatedly and performing the button p
 After that, it will compare the color of a pixels on the screen you selected for changes.
 
 Instructions to use the tool:
-* After starting the tool, you get a welcome screen for 5 seconds.
-* After that, you have 5 seconds to have the emulator window active and focused and have the cursor at a pixel that is 
-going to have a different color when a shiny pokémon appears. The easiest way to do this, is to first have the terminal 
-window focused and then click on the emulator window at the pixel you selected to focus it, without moving the mouse anymore.
+* Set the game's text speed to 3 and save the game in the necessary position right before receiving the pokémon.
+* Set the emulator fast-forward speed to 6, if you don't overwrite the default ffspeed using the `--ffspeed` flag.
+* Start the tool with the `--pokemon` flag set to the pokémon you going to receive.
+* After starting the tool, you have 5 seconds to have the emulator window active and focused and have the cursor at a 
+pixel that is going to have a different color when a shiny pokémon appears in that same screen. The easiest way to do 
+this, is to first have the terminal window focused and then click on the emulator window at the pixel you selected to 
+focus it, without moving the mouse anymore.
 * After that, you get 5 seconds to select a pixel that will stay the same for every encounter. This is used to detect if 
-the game got to the correct point again. The easiest way is again to first defocuse the emulator window by clicking on 
+the game got to the correct point again. The easiest way is again to first defocus the emulator window by clicking on 
 the terminal window and then clicking on the emulator window at the pixel you selected to focus it, without moving the 
-mouse anymore. The best choice are pixels that are part of the pokémon's name.
+mouse anymore afterward. The best choice are pixels that are part of the pokémon's name.
 * You repeat the last step again twice. So in total you select 4 pixels: one that changes when a shiny pokémon appears 
-and three that stay the same for every encounter.
+and three that stay the same every reset.
 
-Common problems and solutions:
+# Common problems and solutions:
+* You have to set the game's text speed to 3
 * The terminal window must be allowed to monitor the display pixels and must be allowed to control the keyboard.
-* Fast-Forward speeds above 6x become very unstable and can lead to false positives. It's recommended to use speeds 
-between 1x and 6x.
+* Emulator-Fast-Forward speeds above 6x become very unstable and can lead to false positives. It's recommended to use speeds
+  between 1x and 6x.
