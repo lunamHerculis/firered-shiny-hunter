@@ -1,0 +1,28 @@
+# Jetbrains
+.idea/
+
+# credentials
+.secret/
+
+# MAC
+.DS_Store
+
+# CUSTOM
+.env
+*.env
+
+# Distribute / Builds / Binaries
+dist/
+
+# tmp directory
+tmp/
+
+# cache directories
+.cache/
+.gomod.cache
+
+# log files
+*.log
+
+# vs code
+*.code-workspace

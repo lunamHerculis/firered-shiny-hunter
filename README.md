@@ -41,7 +41,7 @@ The tool supports the following pokémon:
 # Instructions
 
 The tool works by soft-resetting the game repeatedly and performing the button presses to receive the pokémon again.
-After that, it will compare the color of a pixels on the screen you selected for changes.
+After that, it will compare the colors of pixels on the screen you selected for changes.
 
 Instructions to use the tool:
 * Set the game's text speed to 3 and save the game in the necessary position right before receiving the pokémon.
