@@ -44,6 +44,7 @@ The tool works by soft-resetting the game repeatedly and performing the button p
 After that, it will compare the colors of pixels on the screen you selected for changes.
 
 Instructions to use the tool:
+* Set the Keyboard settings of the emulator like this: <img width="1618" height="1466" alt="button_layout" src="https://github.com/user-attachments/assets/b12b4010-7455-41e9-82eb-428e6bcd0e4a" />
 * Set the game's text speed to 3 and save the game in the necessary position right before receiving the pokémon.
 * Set the emulator fast-forward speed to 6, if you don't overwrite the default ffspeed using the `--ffspeed` flag.
 * Start the tool with the `--pokemon` flag set to the pokémon you going to receive.
