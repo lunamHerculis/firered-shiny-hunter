@@ -60,7 +60,8 @@ mouse anymore afterward. The best choice are pixels that are part of the pokémo
 and three that stay the same every reset.
 
 # Common problems and solutions:
-* You have to set the game's text speed to 3
+* The buttons aren't set correctly.
+* The game's text speed is not set to 3
 * The terminal window must be allowed to monitor the display pixels and must be allowed to control the keyboard.
 * Emulator-Fast-Forward speeds above 6x become very unstable and can lead to false positives. It's recommended to use speeds
   between 1x and 6x.
