@@ -44,6 +44,11 @@ The tool supports the following pokémon:
 
 The tool works by soft-resetting the game repeatedly and performing the button presses to receive the pokémon again.
 After that, it will compare the colors of pixels on the screen you selected for changes.
+The tool will tell you to select a pixel which will change its color for a shiny. For that, have the mouse be at a pixel position where the shiny version of the pokemon has a different color.
+After that, you must select three pixels that shall remain the same. This is done in order to catch runs where it did not end up on the correct screen for whatever reson. In the video, you can see me select three different pixels in the name of the Pokémon, because these will stay the same.
+In the moment the pixel selection is done by the bot, the window of the emulator has to be the selected window on the pc.
+
+You cannot use you pc, while the bot is running! On my mac, it still works fine when I turn the display brightness to 0.
 
 Instructions to use the tool:
 * Set the Keyboard settings of the emulator like this: <img width="1618" height="1466" alt="button_layout" src="https://github.com/user-attachments/assets/b12b4010-7455-41e9-82eb-428e6bcd0e4a" />
