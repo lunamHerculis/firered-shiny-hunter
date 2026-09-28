@@ -2,6 +2,8 @@
 
 A cli tool for automatically grinding shiny pokemon in Pokémon FireRed and LeafGreen.
 
+It works by analysing the color values of a non-shiny version at the beginning of every run and automatically stops, when it detects the Pokémon to have a different color.
+
 Watch this tutorial video to see how it works: https://youtu.be/H78yygHTKkM
 
 # Running the tool
